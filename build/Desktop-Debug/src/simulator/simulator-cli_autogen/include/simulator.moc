@@ -1,0 +1,604 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'simulator.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.3)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/QList>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'simulator.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.3. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_SSLVisionServer_t {
+    QByteArrayData data[6];
+    char stringdata0[49];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_SSLVisionServer_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_SSLVisionServer_t qt_meta_stringdata_SSLVisionServer = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "SSLVisionServer"
+QT_MOC_LITERAL(1, 16, 14), // "sendVisionData"
+QT_MOC_LITERAL(2, 31, 0), // ""
+QT_MOC_LITERAL(3, 32, 4), // "data"
+QT_MOC_LITERAL(4, 37, 4), // "time"
+QT_MOC_LITERAL(5, 42, 6) // "sender"
+
+    },
+    "SSLVisionServer\0sendVisionData\0\0data\0"
+    "time\0sender"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_SSLVisionServer[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    3,   19,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::QByteArray, QMetaType::LongLong, QMetaType::QString,    3,    4,    5,
+
+       0        // eod
+};
+
+void SSLVisionServer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<SSLVisionServer *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->sendVisionData((*reinterpret_cast< const QByteArray(*)>(_a[1])),(*reinterpret_cast< qint64(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3]))); break;
+        default: ;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject SSLVisionServer::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_SSLVisionServer.data,
+    qt_meta_data_SSLVisionServer,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *SSLVisionServer::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *SSLVisionServer::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_SSLVisionServer.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int SSLVisionServer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_SimulatorCommandAdaptor_t {
+    QByteArrayData data[11];
+    char stringdata0[146];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_SimulatorCommandAdaptor_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_SimulatorCommandAdaptor_t qt_meta_stringdata_SimulatorCommandAdaptor = {
+    {
+QT_MOC_LITERAL(0, 0, 23), // "SimulatorCommandAdaptor"
+QT_MOC_LITERAL(1, 24, 11), // "sendCommand"
+QT_MOC_LITERAL(2, 36, 0), // ""
+QT_MOC_LITERAL(3, 37, 7), // "Command"
+QT_MOC_LITERAL(4, 45, 1), // "c"
+QT_MOC_LITERAL(5, 47, 15), // "handleDatagrams"
+QT_MOC_LITERAL(6, 63, 20), // "handleSimulatorError"
+QT_MOC_LITERAL(7, 84, 18), // "QList<SSLSimError>"
+QT_MOC_LITERAL(8, 103, 5), // "error"
+QT_MOC_LITERAL(9, 109, 29), // "camun::simulator::ErrorSource"
+QT_MOC_LITERAL(10, 139, 6) // "source"
+
+    },
+    "SimulatorCommandAdaptor\0sendCommand\0"
+    "\0Command\0c\0handleDatagrams\0"
+    "handleSimulatorError\0QList<SSLSimError>\0"
+    "error\0camun::simulator::ErrorSource\0"
+    "source"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_SimulatorCommandAdaptor[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       3,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   29,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       5,    0,   32,    2, 0x08 /* Private */,
+       6,    2,   33,    2, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, 0x80000000 | 3,    4,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 7, 0x80000000 | 9,    8,   10,
+
+       0        // eod
+};
+
+void SimulatorCommandAdaptor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<SimulatorCommandAdaptor *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->sendCommand((*reinterpret_cast< const Command(*)>(_a[1]))); break;
+        case 1: _t->handleDatagrams(); break;
+        case 2: _t->handleSimulatorError((*reinterpret_cast< const QList<SSLSimError>(*)>(_a[1])),(*reinterpret_cast< camun::simulator::ErrorSource(*)>(_a[2]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (SimulatorCommandAdaptor::*)(const Command & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SimulatorCommandAdaptor::sendCommand)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject SimulatorCommandAdaptor::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_SimulatorCommandAdaptor.data,
+    qt_meta_data_SimulatorCommandAdaptor,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *SimulatorCommandAdaptor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *SimulatorCommandAdaptor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_SimulatorCommandAdaptor.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int SimulatorCommandAdaptor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 3)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 3;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SimulatorCommandAdaptor::sendCommand(const Command & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+struct qt_meta_stringdata_RobotCommandAdaptor_t {
+    QByteArrayData data[16];
+    char stringdata0[247];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_RobotCommandAdaptor_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_RobotCommandAdaptor_t qt_meta_stringdata_RobotCommandAdaptor = {
+    {
+QT_MOC_LITERAL(0, 0, 19), // "RobotCommandAdaptor"
+QT_MOC_LITERAL(1, 20, 17), // "sendRadioCommands"
+QT_MOC_LITERAL(2, 38, 0), // ""
+QT_MOC_LITERAL(3, 39, 18), // "SSLSimRobotControl"
+QT_MOC_LITERAL(4, 58, 8), // "commands"
+QT_MOC_LITERAL(5, 67, 6), // "isBlue"
+QT_MOC_LITERAL(6, 74, 15), // "processingDelay"
+QT_MOC_LITERAL(7, 90, 19), // "handleRobotResponse"
+QT_MOC_LITERAL(8, 110, 27), // "QList<robot::RadioResponse>"
+QT_MOC_LITERAL(9, 138, 9), // "responses"
+QT_MOC_LITERAL(10, 148, 20), // "handleSimulatorError"
+QT_MOC_LITERAL(11, 169, 18), // "QList<SSLSimError>"
+QT_MOC_LITERAL(12, 188, 5), // "error"
+QT_MOC_LITERAL(13, 194, 29), // "camun::simulator::ErrorSource"
+QT_MOC_LITERAL(14, 224, 6), // "source"
+QT_MOC_LITERAL(15, 231, 15) // "handleDatagrams"
+
+    },
+    "RobotCommandAdaptor\0sendRadioCommands\0"
+    "\0SSLSimRobotControl\0commands\0isBlue\0"
+    "processingDelay\0handleRobotResponse\0"
+    "QList<robot::RadioResponse>\0responses\0"
+    "handleSimulatorError\0QList<SSLSimError>\0"
+    "error\0camun::simulator::ErrorSource\0"
+    "source\0handleDatagrams"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_RobotCommandAdaptor[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       4,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    3,   34,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       7,    1,   41,    2, 0x0a /* Public */,
+      10,    2,   44,    2, 0x0a /* Public */,
+      15,    0,   49,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void, 0x80000000 | 3, QMetaType::Bool, QMetaType::LongLong,    4,    5,    6,
+
+ // slots: parameters
+    QMetaType::Void, 0x80000000 | 8,    9,
+    QMetaType::Void, 0x80000000 | 11, 0x80000000 | 13,   12,   14,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void RobotCommandAdaptor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<RobotCommandAdaptor *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->sendRadioCommands((*reinterpret_cast< const SSLSimRobotControl(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])),(*reinterpret_cast< qint64(*)>(_a[3]))); break;
+        case 1: _t->handleRobotResponse((*reinterpret_cast< const QList<robot::RadioResponse>(*)>(_a[1]))); break;
+        case 2: _t->handleSimulatorError((*reinterpret_cast< const QList<SSLSimError>(*)>(_a[1])),(*reinterpret_cast< camun::simulator::ErrorSource(*)>(_a[2]))); break;
+        case 3: _t->handleDatagrams(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (RobotCommandAdaptor::*)(const SSLSimRobotControl & , bool , qint64 );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&RobotCommandAdaptor::sendRadioCommands)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject RobotCommandAdaptor::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_RobotCommandAdaptor.data,
+    qt_meta_data_RobotCommandAdaptor,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *RobotCommandAdaptor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *RobotCommandAdaptor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_RobotCommandAdaptor.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int RobotCommandAdaptor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 4)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 4;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 4)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 4;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void RobotCommandAdaptor::sendRadioCommands(const SSLSimRobotControl & _t1, bool _t2, qint64 _t3)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+struct qt_meta_stringdata_SimProxy_t {
+    QByteArrayData data[23];
+    char stringdata0[266];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_SimProxy_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_SimProxy_t qt_meta_stringdata_SimProxy = {
+    {
+QT_MOC_LITERAL(0, 0, 8), // "SimProxy"
+QT_MOC_LITERAL(1, 9, 15), // "sendSSLSimError"
+QT_MOC_LITERAL(2, 25, 0), // ""
+QT_MOC_LITERAL(3, 26, 18), // "QList<SSLSimError>"
+QT_MOC_LITERAL(4, 45, 6), // "errors"
+QT_MOC_LITERAL(5, 52, 11), // "ErrorSource"
+QT_MOC_LITERAL(6, 64, 6), // "source"
+QT_MOC_LITERAL(7, 71, 18), // "sendRadioResponses"
+QT_MOC_LITERAL(8, 90, 27), // "QList<robot::RadioResponse>"
+QT_MOC_LITERAL(9, 118, 9), // "responses"
+QT_MOC_LITERAL(10, 128, 9), // "gotPacket"
+QT_MOC_LITERAL(11, 138, 4), // "data"
+QT_MOC_LITERAL(12, 143, 4), // "time"
+QT_MOC_LITERAL(13, 148, 6), // "sender"
+QT_MOC_LITERAL(14, 155, 10), // "gotCommand"
+QT_MOC_LITERAL(15, 166, 7), // "Command"
+QT_MOC_LITERAL(16, 174, 7), // "command"
+QT_MOC_LITERAL(17, 182, 19), // "handleRadioCommands"
+QT_MOC_LITERAL(18, 202, 18), // "SSLSimRobotControl"
+QT_MOC_LITERAL(19, 221, 7), // "control"
+QT_MOC_LITERAL(20, 229, 6), // "isBlue"
+QT_MOC_LITERAL(21, 236, 15), // "processingStart"
+QT_MOC_LITERAL(22, 252, 13) // "handleCommand"
+
+    },
+    "SimProxy\0sendSSLSimError\0\0QList<SSLSimError>\0"
+    "errors\0ErrorSource\0source\0sendRadioResponses\0"
+    "QList<robot::RadioResponse>\0responses\0"
+    "gotPacket\0data\0time\0sender\0gotCommand\0"
+    "Command\0command\0handleRadioCommands\0"
+    "SSLSimRobotControl\0control\0isBlue\0"
+    "processingStart\0handleCommand"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_SimProxy[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       6,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       5,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    2,   44,    2, 0x06 /* Public */,
+       7,    1,   49,    2, 0x06 /* Public */,
+      10,    3,   52,    2, 0x06 /* Public */,
+      14,    1,   59,    2, 0x06 /* Public */,
+      17,    3,   62,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+      22,    1,   69,    2, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, 0x80000000 | 3, 0x80000000 | 5,    4,    6,
+    QMetaType::Void, 0x80000000 | 8,    9,
+    QMetaType::Void, QMetaType::QByteArray, QMetaType::LongLong, QMetaType::QString,   11,   12,   13,
+    QMetaType::Void, 0x80000000 | 15,   16,
+    QMetaType::Void, 0x80000000 | 18, QMetaType::Bool, QMetaType::LongLong,   19,   20,   21,
+
+ // slots: parameters
+    QMetaType::Void, 0x80000000 | 15,   16,
+
+       0        // eod
+};
+
+void SimProxy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<SimProxy *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->sendSSLSimError((*reinterpret_cast< const QList<SSLSimError>(*)>(_a[1])),(*reinterpret_cast< ErrorSource(*)>(_a[2]))); break;
+        case 1: _t->sendRadioResponses((*reinterpret_cast< const QList<robot::RadioResponse>(*)>(_a[1]))); break;
+        case 2: _t->gotPacket((*reinterpret_cast< const QByteArray(*)>(_a[1])),(*reinterpret_cast< qint64(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3]))); break;
+        case 3: _t->gotCommand((*reinterpret_cast< const Command(*)>(_a[1]))); break;
+        case 4: _t->handleRadioCommands((*reinterpret_cast< const SSLSimRobotControl(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])),(*reinterpret_cast< qint64(*)>(_a[3]))); break;
+        case 5: _t->handleCommand((*reinterpret_cast< const Command(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (SimProxy::*)(const QList<SSLSimError> & , ErrorSource );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SimProxy::sendSSLSimError)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (SimProxy::*)(const QList<robot::RadioResponse> & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SimProxy::sendRadioResponses)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (SimProxy::*)(const QByteArray & , qint64 , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SimProxy::gotPacket)) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            using _t = void (SimProxy::*)(const Command & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SimProxy::gotCommand)) {
+                *result = 3;
+                return;
+            }
+        }
+        {
+            using _t = void (SimProxy::*)(const SSLSimRobotControl & , bool , qint64 );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SimProxy::handleRadioCommands)) {
+                *result = 4;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject SimProxy::staticMetaObject = { {
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
+    qt_meta_stringdata_SimProxy.data,
+    qt_meta_data_SimProxy,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *SimProxy::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *SimProxy::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_SimProxy.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int SimProxy::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 6)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 6;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 6)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 6;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SimProxy::sendSSLSimError(const QList<SSLSimError> & _t1, ErrorSource _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void SimProxy::sendRadioResponses(const QList<robot::RadioResponse> & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void SimProxy::gotPacket(const QByteArray & _t1, qint64 _t2, QString _t3)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void SimProxy::gotCommand(const Command & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void SimProxy::handleRadioCommands(const SSLSimRobotControl & _t1, bool _t2, qint64 _t3)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

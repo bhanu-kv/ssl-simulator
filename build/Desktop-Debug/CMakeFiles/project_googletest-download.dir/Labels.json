@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_googletest-download"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_googletest-download.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-download.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/patch.copy.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"project_googletest"
+		],
+		"name" : "project_googletest-download"
+	}
+}

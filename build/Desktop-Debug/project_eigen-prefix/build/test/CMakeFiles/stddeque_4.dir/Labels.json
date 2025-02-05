@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/src/project_eigen/test/stddeque.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "stddeque_4"
+	}
+}

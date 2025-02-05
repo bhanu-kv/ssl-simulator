@@ -1,0 +1,17 @@
+{
+	"compiler-id" : "GNU",
+	"dir-cur-bld" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/lapack",
+	"dir-cur-src" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/src/project_eigen/lapack",
+	"dir-top-bld" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build",
+	"dir-top-src" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/src/project_eigen",
+	"include-dirs" : 
+	[
+		"/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/src/project_eigen",
+		"/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/src/project_eigen/lapack/../blas"
+	],
+	"language" : "Fortran",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/lapack",
+	"submodule-ext" : ".smod",
+	"submodule-sep" : "@"
+}

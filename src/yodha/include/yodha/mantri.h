@@ -1,0 +1,20 @@
+#ifndef MANTRI_H
+#define MANTRI_H
+
+#include <QGraphicsScene>
+
+class MantriGraphics;
+
+class Mantri{
+public:
+    Mantri(){};
+    Mantri(QGraphicsScene *scene, QPointF &&point, float intensity, float width, float radius);
+    void updateColor(float intensity);
+    float getx(){return x;}
+    float gety(){return y;}
+private:
+    float x, y, radius, width, intensity;
+    QGraphicsEllipseItem *graphics = nullptr;
+};
+
+#endif // MANTRI_H

@@ -1,0 +1,128 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/bhanu/.local/bin/ninja cmTC_42dd2 && [1/2 32.3/sec] Building CXX object CMakeFiles/cmTC_42dd2.dir/src.cxx.o
+[31mFAILED: [0mCMakeFiles/cmTC_42dd2.dir/src.cxx.o 
+/usr/bin/x86_64-linux-gnu-g++-11 -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_42dd2.dir/src.cxx.o -c /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.cxx
+x86_64-linux-gnu-g++-11: error: unrecognized command-line option '-Wshorten-64-to-32'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/bhanu/.local/bin/ninja cmTC_e0dab && [1/2 20.0/sec] Building CXX object CMakeFiles/cmTC_e0dab.dir/src.cxx.o
+[31mFAILED: [0mCMakeFiles/cmTC_e0dab.dir/src.cxx.o 
+/usr/bin/x86_64-linux-gnu-g++-11 -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_e0dab.dir/src.cxx.o -c /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.cxx
+x86_64-linux-gnu-g++-11: error: unrecognized command-line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/bhanu/.local/bin/ninja cmTC_4ee98 && [1/2 125.0/sec] Building CXX object CMakeFiles/cmTC_4ee98.dir/src.cxx.o
+[31mFAILED: [0mCMakeFiles/cmTC_4ee98.dir/src.cxx.o 
+/usr/bin/x86_64-linux-gnu-g++-11 -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd981 -o CMakeFiles/cmTC_4ee98.dir/src.cxx.o -c /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.cxx
+x86_64-linux-gnu-g++-11: error: unrecognized command-line option '-wd981'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/bhanu/.local/bin/ninja cmTC_f66f3 && [1/2 50.0/sec] Building CXX object CMakeFiles/cmTC_f66f3.dir/src.cxx.o
+[31mFAILED: [0mCMakeFiles/cmTC_f66f3.dir/src.cxx.o 
+/usr/bin/x86_64-linux-gnu-g++-11 -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd2304 -o CMakeFiles/cmTC_f66f3.dir/src.cxx.o -c /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.cxx
+x86_64-linux-gnu-g++-11: error: unrecognized command-line option '-wd2304'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/bhanu/.local/bin/ninja cmTC_45b78 && [1/2 52.6/sec] Building CXX object CMakeFiles/cmTC_45b78.dir/src.cxx.o
+[31mFAILED: [0mCMakeFiles/cmTC_45b78.dir/src.cxx.o 
+/usr/bin/x86_64-linux-gnu-g++-11 -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -strict-ansi -o CMakeFiles/cmTC_45b78.dir/src.cxx.o -c /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.cxx
+x86_64-linux-gnu-g++-11: error: unrecognized command-line option '-strict-ansi'; did you mean '-fstrict-enums'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/bhanu/.local/bin/ninja cmTC_b9aa9 && [1/2 32.3/sec] Building CXX object CMakeFiles/cmTC_b9aa9.dir/src.cxx.o
+[31mFAILED: [0mCMakeFiles/cmTC_b9aa9.dir/src.cxx.o 
+/usr/bin/x86_64-linux-gnu-g++-11 -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -Qunused-arguments -o CMakeFiles/cmTC_b9aa9.dir/src.cxx.o -c /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.cxx
+x86_64-linux-gnu-g++-11: error: unrecognized command-line option '-Qunused-arguments'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test SCOTCH_Num_4 failed with the following compile output:
+Change Dir: /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/bhanu/.local/bin/ninja cmTC_c7b6f && [1/2 142.9/sec] Building C object CMakeFiles/cmTC_c7b6f.dir/src.c.o
+[31mFAILED: [0mCMakeFiles/cmTC_c7b6f.dir/src.c.o 
+/usr/bin/gcc-11 -DSCOTCH_Num_4  -fopenmp -o CMakeFiles/cmTC_c7b6f.dir/src.c.o -c /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.c
+/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.c:4:10: fatal error: scotch.h: No such file or directory
+    4 | #include <scotch.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <scotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 4)
+    return 0;
+  else
+    return 1;
+}
+
+Performing C SOURCE FILE Test SCOTCH_Num_8 failed with the following compile output:
+Change Dir: /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/bhanu/.local/bin/ninja cmTC_993bd && [1/2 142.9/sec] Building C object CMakeFiles/cmTC_993bd.dir/src.c.o
+[31mFAILED: [0mCMakeFiles/cmTC_993bd.dir/src.c.o 
+/usr/bin/gcc-11 -DSCOTCH_Num_8  -fopenmp -o CMakeFiles/cmTC_993bd.dir/src.c.o -c /home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.c
+/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_eigen-prefix/build/CMakeFiles/CMakeTmp/src.c:4:10: fatal error: scotch.h: No such file or directory
+    4 | #include <scotch.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdio.h>
+#include <stdint.h>
+#include <scotch.h>
+int main(int argc, char **argv) {
+  if (sizeof(SCOTCH_Num) == 8)
+    return 0;
+  else
+    return 1;
+}
+

@@ -1,0 +1,22 @@
+src/voronoi/NVoronoi_autogen/timestamp: \
+  ../../src/voronoi/CMakeLists.txt \
+  ../../src/voronoi/source/Graph.cpp \
+  ../../src/voronoi/source/Graph.h \
+  ../../src/voronoi/source/VEdge.h \
+  ../../src/voronoi/source/VEvent.h \
+  ../../src/voronoi/source/VParabola.cpp \
+  ../../src/voronoi/source/VParabola.h \
+  ../../src/voronoi/source/VPoint.h \
+  ../../src/voronoi/source/Voronoi.cpp \
+  ../../src/voronoi/source/Voronoi.h \
+  ../../src/voronoi/source/planner.cpp \
+  ../../src/voronoi/source/planner.h \
+  ../../src/voronoi/source/vmath.h \
+  /usr/share/cmake-3.22/Modules/FindGLEW.cmake \
+  /usr/share/cmake-3.22/Modules/FindGLUT.cmake \
+  /usr/share/cmake-3.22/Modules/FindOpenGL.cmake \
+  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake \
+  /usr/share/cmake-3.22/Modules/FindPackageMessage.cmake \
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake \
+  /usr/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake \
+  /usr/bin/cmake

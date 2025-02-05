@@ -1,0 +1,67 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/vishnu/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "core::@0618756b1ff51bca1a0e"
+		},
+		{
+			"id" : "shunya::@76c6a5a844e64a2bbc43"
+		}
+	],
+	"id" : "vishnu_autogen_timestamp_deps::@788046f66acb0c1a3a73",
+	"isGeneratorProvided" : true,
+	"name" : "vishnu_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/vishnu",
+		"source" : "src/vishnu"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/src/vishnu/CMakeFiles/vishnu_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/src/vishnu/CMakeFiles/vishnu_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

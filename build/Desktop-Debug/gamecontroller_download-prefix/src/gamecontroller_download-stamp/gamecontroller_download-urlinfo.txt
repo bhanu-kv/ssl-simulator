@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/RoboCup-SSL/ssl-game-controller/releases/download/v2.16.1/ssl-game-controller_v2.16.1_linux_amd64'
+tag='SHA256=89ea086453ab6433f1f4c095e87ef858e56399c12b00de403b7975d9524dff0b'

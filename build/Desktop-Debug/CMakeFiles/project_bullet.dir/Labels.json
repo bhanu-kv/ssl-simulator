@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_bullet"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_bullet.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_bullet-complete.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-build.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-cleanup.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-configure.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-download.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-install.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-mkdir.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-patch.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-update.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/patch.copy.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"project_bullet"
+		],
+		"name" : "project_bullet"
+	}
+}

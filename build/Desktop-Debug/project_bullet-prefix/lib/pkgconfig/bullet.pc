@@ -1,0 +1,6 @@
+Name: bullet
+Description: Bullet Continuous Collision Detection and Physics Library
+Requires:
+Version: 2.83
+Libs: -L/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/lib -lBulletSoftBody -lBulletDynamics -lBulletCollision -lLinearMath
+Cflags:  -I/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/include/bullet -I/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/include

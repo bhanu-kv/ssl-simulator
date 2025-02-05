@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://www.robotics-erlangen.de/downloads/libraries/bullet3-2.83.6.tar.gz'
+tag='SHA256=dcd5448f31ded71c7bd22fddd7d816ac590ae7b97e1fdda8d1253f8ff3655571'

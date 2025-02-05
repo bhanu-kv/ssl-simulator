@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_bullet-download"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_bullet-download.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-download.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/patch.copy.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"project_bullet"
+		],
+		"name" : "project_bullet-download"
+	}
+}

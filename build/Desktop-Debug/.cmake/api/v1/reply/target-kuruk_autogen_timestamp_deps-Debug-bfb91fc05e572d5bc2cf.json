@@ -1,0 +1,76 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/kuruk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "vyasa::@b64e0b62c9384834fedc"
+		},
+		{
+			"id" : "kshetra::@9aefd8866b4a209b05ba"
+		},
+		{
+			"id" : "shunya::@76c6a5a844e64a2bbc43"
+		},
+		{
+			"id" : "drona::@966a6055654e5d99fca8"
+		},
+		{
+			"id" : "vishnu::@788046f66acb0c1a3a73"
+		}
+	],
+	"id" : "kuruk_autogen_timestamp_deps::@85095da75ef98a888a83",
+	"isGeneratorProvided" : true,
+	"name" : "kuruk_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/kuruk",
+		"source" : "src/kuruk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/src/kuruk/CMakeFiles/kuruk_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/src/kuruk/CMakeFiles/kuruk_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

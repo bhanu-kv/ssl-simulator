@@ -1,0 +1,8 @@
+yodha_autogen/timestamp: \
+	/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/config/include/config/config.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/yodha/CMakeLists.txt \
+	/home/bhanu/abhiyaan/ssl-simulator/src/yodha/include/yodha/mantri.cpp \
+	/home/bhanu/abhiyaan/ssl-simulator/src/yodha/include/yodha/mantri.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/yodha/include/yodha/yodha.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/yodha/src/yodha.cpp \
+	/usr/bin/cmake

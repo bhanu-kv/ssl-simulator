@@ -1,0 +1,8 @@
+# Target labels
+ project_bullet
+# Source files and their labels
+/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_bullet-download
+/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_bullet-download.rule
+/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-download.rule
+/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/patch.copy.rule
+/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_bullet-prefix/src/project_bullet-stamp/project_bullet-mkdir.rule

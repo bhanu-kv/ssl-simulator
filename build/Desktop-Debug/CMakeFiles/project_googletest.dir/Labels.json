@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_googletest"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_googletest.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/project_googletest-complete.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-build.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-cleanup.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-configure.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-download.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-install.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-patch.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/src/project_googletest-stamp/project_googletest-update.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/project_googletest-prefix/patch.copy.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"project_googletest"
+		],
+		"name" : "project_googletest"
+	}
+}

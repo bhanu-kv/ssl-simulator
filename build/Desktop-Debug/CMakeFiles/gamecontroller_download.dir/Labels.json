@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/gamecontroller_download"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/gamecontroller_download.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/CMakeFiles/gamecontroller_download-complete.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/gamecontroller_download-prefix/src/gamecontroller_download-stamp/gamecontroller_download-build.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/gamecontroller_download-prefix/src/gamecontroller_download-stamp/gamecontroller_download-cleanup.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/gamecontroller_download-prefix/src/gamecontroller_download-stamp/gamecontroller_download-configure.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/gamecontroller_download-prefix/src/gamecontroller_download-stamp/gamecontroller_download-download.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/gamecontroller_download-prefix/src/gamecontroller_download-stamp/gamecontroller_download-install.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/gamecontroller_download-prefix/src/gamecontroller_download-stamp/gamecontroller_download-mkdir.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/gamecontroller_download-prefix/src/gamecontroller_download-stamp/gamecontroller_download-patch.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/gamecontroller_download-prefix/src/gamecontroller_download-stamp/gamecontroller_download-update.rule"
+		},
+		{
+			"file" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/gamecontroller_download-prefix/patch.copy.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gamecontroller_download"
+		],
+		"name" : "gamecontroller_download"
+	}
+}

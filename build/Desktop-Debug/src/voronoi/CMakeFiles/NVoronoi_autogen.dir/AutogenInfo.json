@@ -1,0 +1,158 @@
+{
+	"BUILD_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/voronoi/NVoronoi_autogen",
+	"CMAKE_BINARY_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/voronoi",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/src/voronoi",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/CMakeLists.txt",
+		"/usr/share/cmake-3.22/Modules/FindGLEW.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/share/cmake-3.22/Modules/FindGLUT.cmake",
+		"/usr/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.22/Modules/FindOpenGL.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/bhanu/abhiyaan/ssl-simulator",
+	"DEP_FILE" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/voronoi/NVoronoi_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "NVoronoi_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/Graph.h",
+			"MU",
+			"CAWN4ZDDTK/moc_Graph.cpp",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VEdge.h",
+			"MU",
+			"CAWN4ZDDTK/moc_VEdge.cpp",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VEvent.h",
+			"MU",
+			"CAWN4ZDDTK/moc_VEvent.cpp",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VParabola.h",
+			"MU",
+			"CAWN4ZDDTK/moc_VParabola.cpp",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VPoint.h",
+			"MU",
+			"CAWN4ZDDTK/moc_VPoint.cpp",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/Voronoi.h",
+			"MU",
+			"CAWN4ZDDTK/moc_Voronoi.cpp",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/planner.h",
+			"MU",
+			"CAWN4ZDDTK/moc_planner.cpp",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/vmath.h",
+			"MU",
+			"CAWN4ZDDTK/moc_vmath.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/voronoi/NVoronoi_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/voronoi/NVoronoi_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/bhanu/abhiyaan/ssl-simulator/source",
+		"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/x86_64-linux-gnu-g++-11",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/voronoi/NVoronoi_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/voronoi/CMakeFiles/NVoronoi_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/voronoi/CMakeFiles/NVoronoi_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/Graph.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VParabola.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/Voronoi.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/planner.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,22 @@
+NVoronoi_autogen/timestamp: \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/CMakeLists.txt \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/Graph.cpp \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/Graph.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VEdge.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VEvent.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VParabola.cpp \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VParabola.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/VPoint.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/Voronoi.cpp \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/Voronoi.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/planner.cpp \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/planner.h \
+	/home/bhanu/abhiyaan/ssl-simulator/src/voronoi/source/vmath.h \
+	/usr/share/cmake-3.22/Modules/FindGLEW.cmake \
+	/usr/share/cmake-3.22/Modules/FindGLUT.cmake \
+	/usr/share/cmake-3.22/Modules/FindOpenGL.cmake \
+	/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake \
+	/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake \
+	/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake \
+	/usr/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake \
+	/usr/bin/cmake

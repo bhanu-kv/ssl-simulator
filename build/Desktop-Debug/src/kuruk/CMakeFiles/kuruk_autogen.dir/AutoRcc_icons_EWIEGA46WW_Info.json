@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/kuruk/kuruk_autogen",
+	"CMAKE_BINARY_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/kuruk",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/src/kuruk",
+	"CMAKE_SOURCE_DIR" : "/home/bhanu/abhiyaan/ssl-simulator",
+	"INCLUDE_DIR" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/kuruk/kuruk_autogen/include",
+	"INPUTS" : [ "/home/bhanu/abhiyaan/ssl-simulator/src/kuruk/edit-redo.svg" ],
+	"LOCK_FILE" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/kuruk/CMakeFiles/kuruk_autogen.dir/AutoRcc_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icons.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/bhanu/abhiyaan/ssl-simulator/build/Desktop-Debug/src/kuruk/CMakeFiles/kuruk_autogen.dir/AutoRcc_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/bhanu/abhiyaan/ssl-simulator/src/kuruk/icons.qrc",
+	"VERBOSITY" : 0
+}
