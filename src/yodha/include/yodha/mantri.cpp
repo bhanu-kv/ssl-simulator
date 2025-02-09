@@ -2,7 +2,7 @@
 #include "shunya/shunya.h"
 #include <QDebug>
 #include <QPainter>
-#include <QGraphicsEllipseItem>
+#include <QGraphicsRectItem>
 #include <QtWidgets>
 
 #define LOG qDebug() << "[yodha] : "
@@ -53,7 +53,7 @@ Mantri::Mantri(QGraphicsScene *scene, QPointF &&point, float intensity, float wi
         adjustedColor = baseColor.lighter(200 - value); // Lighter for values <= 100
     }
 
-    graphics = scene->addEllipse(bounding_rect, QPen(Qt::NoPen), QBrush(adjustedColor));
+    graphics = scene->addRect(bounding_rect, QPen(Qt::NoPen), QBrush(adjustedColor));
 }
 
 void Mantri::updateColor(float intensity){

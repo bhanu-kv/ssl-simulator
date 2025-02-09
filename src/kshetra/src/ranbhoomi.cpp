@@ -229,7 +229,7 @@ void Ranbhoomi::setHotMap()
         for(int i = -4500; i <= 4500; i+=100){
             for(int j = -3000; j<= 3000; j+=100){
                 float color_value = 0;
-                scene_mantri->push_back(Mantri(scene,transformToScene(QPointF(i, j)), color_value/1000000, 5, 6.5));
+                scene_mantri->push_back(Mantri(scene,transformToScene(QPointF(i, j)), color_value/1000000, 5, 5));
             }
         }
 
@@ -237,37 +237,67 @@ void Ranbhoomi::setHotMap()
         return;
     }
 
+    // auto pandav = state.detection().robots_blue();
+    // for(auto itr=pandav.begin(); itr!=pandav.end(); ++itr){
+    //     LOG << itr->x()/10 << " " << itr->y()/10;
+    // }
+
     int std = 5;
 
-    for(int i = 0; i <= 9000; i+=100)
+    for(auto i = 0; i < scene_mantri->size(); i++)
     {
-        for(int j = 0; j<= 6000; j+=100)
-        {
-            float color_value = 0;
-            int index = i*61/100 + j/100;
+        float color_value = 0;
 
-            //blue bots
-            if(state.detection().robots_blue_size() != 0){
-                auto pandav = state.detection().robots_blue();
-                for(auto itr=pandav.begin(); itr != pandav.end(); ++itr){
-                    // float x_rel = (scene_mantri->at(index).getx() - itr->x()/10)/450;
-                    // float y_rel = (scene_mantri->at(index).gety() - itr->y()/10)/300;
+        //blue bots
+        if(state.detection().robots_blue_size() != 0){
+            auto pandav = state.detection().robots_blue();
+            for(auto itr=pandav.begin(); itr != pandav.end(); ++itr){
+                // float x_rel = (scene_mantri->at(index).getx() - itr->x()/10)/450;
+                // float y_rel = (scene_mantri->at(index).gety() - itr->y()/10)/300;
 
-                    // float num = -1*(x_rel*x_rel + y_rel*y_rel)/(2*std*std);
-                    // color_value += (1/(6.28*std*std))*exp(num);
+                // float num = -1*(x_rel*x_rel + y_rel*y_rel)/(2*std*std);
+                // color_value += (1/(6.28*std*std))*exp(num);
 
-                    color_value += abs(scene_mantri->at(index).getx() - itr->x()/10) + abs(scene_mantri->at(index).gety() - itr->y()/10);
-                }
+                color_value += abs(scene_mantri->at(i).getx() - (itr->x()/10+scene->width()/2)) + abs(scene_mantri->at(i).gety() - (itr->y()/10+scene->height()/2));
             }
-
-            // LOG << color_value;
-            color_value /= 5;
-
-            color_value = 1500 - color_value;
-
-            scene_mantri->at(index).updateColor(color_value/10);
-            // scene_mantri->push_back(Mantri(scene,transformToScene(QPointF(i, j)), color_value/1000000000, 20, 1));
-            // addArc_(scene, transformToScene(QPointF(i, j)), 1, 20, color_value/1000000000);
         }
+
+        // LOG << color_value;
+        color_value /= 5;
+
+        color_value = 500 - color_value;
+
+        scene_mantri->at(i).updateColor(color_value);
     }
+    // for(int i = 0; i <= 9000; i+=100)
+    // {
+    //     for(int j = 0; j<= 6000; j+=100)
+    //     {
+    //         float color_value = 0;
+    //         int index = i*61/100 + j/100;
+
+    //         //blue bots
+    //         if(state.detection().robots_blue_size() != 0){
+    //             auto pandav = state.detection().robots_blue();
+    //             for(auto itr=pandav.begin(); itr != pandav.end(); ++itr){
+    //                 // float x_rel = (scene_mantri->at(index).getx() - itr->x()/10)/450;
+    //                 // float y_rel = (scene_mantri->at(index).gety() - itr->y()/10)/300;
+
+    //                 // float num = -1*(x_rel*x_rel + y_rel*y_rel)/(2*std*std);
+    //                 // color_value += (1/(6.28*std*std))*exp(num);
+
+    //                 color_value += abs(scene_mantri->at(index).getx() - itr->x()/10) + abs(scene_mantri->at(index).gety() - itr->y()/10);
+    //             }
+    //         }
+
+    //         // LOG << color_value;
+    //         color_value /= 5;
+
+    //         color_value = 1500 - color_value;
+
+    //         scene_mantri->at(index).updateColor(color_value/10);
+    //         // scene_mantri->push_back(Mantri(scene,transformToScene(QPointF(i, j)), color_value/1000000000, 20, 1));
+    //         // addArc_(scene, transformToScene(QPointF(i, j)), 1, 20, color_value/1000000000);
+    //     }
+    // }
 }

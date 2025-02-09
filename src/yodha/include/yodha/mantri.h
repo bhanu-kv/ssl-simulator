@@ -14,7 +14,7 @@ public:
     float gety(){return y;}
 private:
     float x, y, radius, width, intensity;
-    QGraphicsEllipseItem *graphics = nullptr;
+    QGraphicsRectItem *graphics = nullptr;
 };
 
 #endif // MANTRI_H
